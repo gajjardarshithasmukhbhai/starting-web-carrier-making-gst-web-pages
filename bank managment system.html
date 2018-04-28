@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        .btn {
+            border: none;
+            color: red;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+	 #myDIV {
+            width: 100%;
+            height: 50px;
+            background: red;
+            -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+            animation: mymove 5s infinite;
+        }
+        /* Chrome, Safari, Opera444 */
+        @-webkit-keyframes mymove {
+            from {background-color: red;}
+            to {background-color: blue;}
+        }
+        /* Standard syntax */
+        @keyframes mymove {
+            from {background-color: red;}
+            to {background-color: blue;}
+        }
+            .number3{background-color: bisque};
+			.number2{font-family: "Baskerville Old Face";color: black;font-size:137%}
+			.darshit {background-color: #0b7dda;width: 100%;font-family: Dotum;color: greenyellow}
+			.number2{font-family: "Baskerville Old Face";color: black;font-size:137%};
+     .success {background-color: #4CAF50;} /* Green */
+     .success:hover {background-color: #46a049;}
+
+    </style>
+</head>
+<body>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK0Pk7alWsuXogzxfkVWVmQ37j6hoR4P_ZfaFZW1MsSNrKK2wQlA" width="280" align="center">
+<h1 align="center" class="darshit">Bank managmenet system</h1><hr/>
+<hr/><hr/><hr/>
+<div id="myDIV"><h1 ALIGN="center" class="number1">GAJJAR DARSHIT HASMUKHBHAI</h1></div>
+<br/>
+<br/>
+<form action="bank2.html" method="get" href="bank2.html">
+    <!--usere name-->
+<p class="number2"align="down">Name:</p>
+<!--input type text --->
+    <input type="text" name="hg1" size="76" align="up" class="number3">
+<!--input type adress-->
+    <p class="number2"align="down">HOME-adress</p>
+<input type="text" name="hg2" size="76" align="up" class="number3">
+<p class="number2"align="down">contact number</p>
+<input type="text" name="hg3" size="76" align="up" class="number3">
+<p class="number2"align="down">adharcard number</p>
+<input type="text" name="hg4" size="76" align="up" class="number3">
+<!--type1 button---->
+<p class="number2"align="down">password</p>
+<input type="password" name="hg4" size="76" align="up" class="number3">
+<p class="number2"align="down">confirm password</p>
+<input type="password" name="hg4" size="76" align="up" class="number3">
+    
+   <pre class="number2">Male</pre> <input type="checkbox" value="darshit123">
+  <pre class="number2">Female</pre>  <input type="checkbox" value="darshit1223">
+  <br/>
+  <br/>
+    <script src="bank5.html" method="get">
+        function darshitpp(f)
+        {
+            var d=f.hg1.value,e=f.hg2.value,f=f.hg3.value,g=f.hg4.value;
+            window.location="bank5.html";
+        }                                                                       /*<!--hi gajjar start this logic----->*/
+    </script>
+    <a href="bank5.html" target="right" ><input type="submit" class="btn success" onclick="darshitpp(form)"></a>
+</form>
+</body>
+</html>

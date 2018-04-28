@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bank managment system</title>
+    <style type="text/css">
+
+        .number3{color: blue;font-size: 150%;}
+        .number3:hover{color: #4444CC; font-size: 180%;
+        text-shadow: #46a049;
+        }
+
+        .number3{background-color: #2196F3;font-size: 180%; color: #00bcd4}
+        .ff{font-size: 100%;font-weight: bold;}
+        #blueDiv
+        {
+            background-color: #9c27b0;
+            width: 30%;
+            height: 30%;
+        }
+        .number4{background-color: #9c27b0;font-size: 150%;}
+        .number4:hover{background-color: #0000FF;font-size: 150%}
+    </style>
+</head>
+<body>
+<h1 ALIGN="CENTER" class="number3">Bank managment system</h1>
+<div class="number3"></div>
+<script>
+    function password(f)
+    {
+
+        var dg2=f.dg2.value,dg3=f.dg3.value;
+
+        if(dg2==dg3&&(dg2==dg3)!=null)
+        {
+            var button = document.createElement("button","blueDiv");
+            button.innerHTML = "next";
+
+            var body = document.getElementsByTagName("body")[0];
+            body.appendChild(button);
+            button.addEventListener ("click", function()
+            {
+                window.location="bank8.html";
+            });
+        }
+        else
+            {
+            document.write("<h1 align='center'>sorry! not login</h1>")
+        }
+    }
+</script>
+<form>
+<p class="ff">name</p>
+<input type="text" name="dg1" size="66">
+<p class="ff">password</p>
+<input type="password" name="dg2" size="66">
+<p class="ff">confirm password</p>
+<input type="password" name="dg3" size="66">
+<button type="button" class="number4" onclick="password(form)">submit</button>
+</form>
+</body>
+</html>

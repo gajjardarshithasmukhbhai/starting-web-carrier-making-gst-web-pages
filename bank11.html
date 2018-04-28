@@ -1,0 +1,192 @@
+!<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>bank managment system</title>
+    <style type="text/css">
+
+
+        ul li a
+        {
+            color: red;
+            font-weight: bold;
+            font-size: 170%;
+            text-decoration: none;
+
+        }
+
+        ul {
+            margin: 0px;
+            padding: 0px;
+        }
+        ul li
+        {
+            float: left;
+            background-color: #2B2C2D;
+            height: 50px;
+            width: 190px;
+            line-height: 400%;
+            font-size:80%;
+
+
+        }
+        ul li a:hover
+        {
+            background-color: #00bcd4;
+        }
+        ul  li  ul  li
+        {
+            display: none;
+        }
+        ul li ul li ul li ul li{
+            display: none;
+        }
+        ul li:hover ul li
+        {
+            display: table;
+        }
+
+        .number3{color: blue;font-size: 150%;}
+        .number3:hover{color: #4444CC; font-size: 180%;
+            text-shadow: #46a049;
+        }
+
+        .number3{background-color: #2196F3;font-size: 180%; color: #00bcd4}
+        .ff{font-size: 100%;font-weight: bold;}
+        #blueDiv
+        {
+            background-color: #9c27b0;
+            width: 30%;
+            height: 30%;
+        }
+        .number4{background-color: #9c27b0;font-size: 150%;}
+        .number4:hover{background-color: #0000FF;font-size: 150%}
+        .ppodk
+        {
+            width: 99.8%;
+            height: 530px;
+        }
+        form {
+            border: 3px solid #f1f1f1;
+        }
+
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+        }
+
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+        }
+
+        img.avatar {
+            width: 40%;
+            border-radius: 50%;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+
+        /* Change styles for span and cancel button on extra small screens */
+        @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+            .cancelbtn {
+                width: 100%;
+            }
+        }
+        .ppodk
+        {
+            width: 99.8%;
+            height: 530px;
+        }
+    </style>
+</head>
+<body>
+<h1 ALIGN="CENTER" class="number3">Bank managment system</h1>
+<div class="number3"></div>
+<form>
+    <ul>
+        <li><a href="Bank%20managmnt%20system.htm">Home</a>
+            <ul>
+
+            </ul>
+        </li>
+        <li><a href="bank11.html">LOGIN</a>
+        </li>
+        <li><a href="bank12.html">Email id</a></li>
+        <li><a href="#">service</a>
+        </li>
+        <li><a href="#">feature</a></li>
+        <li><a href="bank9.html">loan</a></li>
+        <li><a href="bank10.html">about us</a>
+            <ul>
+            </ul>
+
+        </li>
+    </ul>
+
+    <img src="https://cdn.pixabay.com/photo/2016/10/09/19/19/coins-1726618__340.jpg" class="ppodk">
+    <br/>
+</form>
+    <h2>Login Form</h2>
+<form action="/action_page.php">
+
+        <div class="imgcontainer">
+
+        </div>
+<script>
+    function flag()
+    {
+        window.location="bank12.html";
+    }
+</script>
+    <div class="container">
+            <img class="irc_mi" src="https://www.w3schools.com/howto/img_avatar2.png" alt="Image result for login avatar images" onload="google.aft&amp;&amp;google.aft(this)" width="304" height="303" style="margin-top: 45px;">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <input type="checkbox" checked="checked"> Remember me
+        </div>
+    <a href="#"><button type="submit">Login</button></a>
+    <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+</form>
+</body>
+</html>
